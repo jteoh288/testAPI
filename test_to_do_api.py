@@ -37,3 +37,5 @@ def test_create_task():
     assert data['content'] ==json_payload['content']
     assert data['is_done'] == json_payload['is_done']
     assert data['user_id'] == json_payload['user_id']
+
+# create test_delete_task(): 
